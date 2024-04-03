@@ -16,9 +16,9 @@ Random exercices
 verbe = input("Entrez l'infinitif d'un verbe du premier groupe : ")
 #Compléter ci-dessous
 pron = ["je", "tu", "il/elle/on", "nous", "vous", "ils/elles"]
-conj = [verbe[:-2]+"e", verbe[:-2]+"es", verbe[:-2]+"e", verbe[:-2]+"ons", verbe[:-2]+"ez", verbe[:-2]+"ent"]
+conj = [verbe[:-2]+"e\n", verbe[:-2]+"es\n", verbe[:-2]+"e\n", verbe[:-2]+"ons\n", verbe[:-2]+"ez\n", verbe[:-2]+"ent\n"]
 conjug = [obj for pair in zip(pron,conj) for obj in pair]
 separator = " "
 conjugation = separator.join(conjug)
-print('La conjugaison de "'+verbe+'" au présent de l\'indicatif :',conjugation )
+print('La conjugaison de "'+verbe+'" au présent de l\'indicatif :\n',conjugation )
 #Compléter ci-dessous
